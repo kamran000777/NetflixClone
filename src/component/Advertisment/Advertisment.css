@@ -1,0 +1,208 @@
+.ad__container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      padding: 50px 30px;
+      border-bottom: 8px solid grey;
+      margin-bottom: 20px;
+      overflow: hidden;
+}
+.ad__container>div{
+      width: 45vw;
+}
+.ad__description h1{
+      font-size: 3rem;
+      padding-bottom: 5px;
+}
+.ad__description p{
+      font-size: 1.5rem;
+      line-height: 1.3;
+}
+.ad__video{
+      position: relative;
+}
+.ad__video > img{
+      position: relative;
+      height: 400px;
+      z-index: 10;
+}
+.animation{
+      width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 5%;
+     left: 14.5%;
+}
+.animation video{
+      max-width: 333px;
+}
+.large__animation{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 20%;
+      left: 9.5%;
+}
+.large__animation video{
+      max-width: 400px;
+}
+
+@media(max-width:1350px){
+      .large__animation{
+      left: 11.5%;
+      }
+}
+@media(max-width:1250px){
+      .animation{
+            left: 18.5%;
+      }
+      .large__animation{
+      left: 13.5%;
+      }
+}
+@media(max-width:1050px){
+      .animation{
+            left: 19.5%;
+      }
+      .animation video{
+            max-width: 290px;
+      }
+      .large__animation{
+            left: 14.5%;
+      }
+      .large__animation video{
+            max-width: 340px;
+      }
+      .ad__video>img{
+           height: 350px;
+      }
+}
+@media(max-width:920px){
+      .animation{
+            left: 21.5%;
+      }
+      .animation video{
+            max-width: 265px;
+      }
+      .large__animation{
+            left: 14.5%;
+        }
+        .ad__video>img{
+            height: 320px;
+       }
+       .large__animation video{
+            max-width: 320px;
+      }
+}
+@media(max-width:830px){
+      .animation{
+            left: 23.5%;
+      }
+      .large__animation{
+            left: 16.5%;
+            }
+}
+@media(max-width:750px){
+      .ad__container{
+            display: grid;
+            place-items: center;
+      }
+      .ad__container>div{
+            width: 100%;
+      }
+      .ad__video>img{
+            height: 400px;
+       }
+      .ad__video{
+            display: flex;
+            justify-content: center;
+      }
+      .animation{
+            left: 22.5%;
+      }
+      .animation video{
+            max-width: 333px;
+      }
+      .large__animation{
+            left: 21.5%;
+      }
+      .large__animation>video{
+            max-width: 388px;
+      }
+      .ad__description h1{
+            font-size: 2rem;
+      }
+      .ad__description p{
+            font-size: 1.2rem;
+      }
+}
+@media(max-width:680px){
+      .large__animation{
+            left: 17.5%;
+            }
+}
+@media(max-width:620px){
+      .animation{
+            left: 21.5%;
+      }
+      .large__animation{
+            left: 15.5%;
+            }
+}
+@media(max-width:570px){
+      .animation{
+            left: 20.5%;
+      }
+      .large__animation{
+            left: 13.5%;
+            }
+      .ad__container{
+            padding: 30px 10px;
+      }
+}
+@media(max-width:520px){
+      .ad__description h1{
+            font-size: 1.5rem;
+      }
+      .ad__description p{
+            font-size: 0.8rem;
+      }
+      .ad__video>img{
+            height: 300px;
+      }
+      .animation video{
+            max-width: 250px;
+      }
+      .animation{
+            left: 24.5%;
+      }
+      .large__animation video{
+            max-width: 300px;
+      }
+      .large__animation{
+            left: 17.5%;
+            }
+}
+@media(max-width:460px){
+      .animation{
+            left: 20.5%;
+      }
+      .large__animation{
+            left: 15.5%;
+            }
+}
+@media(max-width:400px){
+      .ad__video>img{
+            height: 270px;
+      }
+      .animation video{
+            max-width: 225px;
+      }
+      .large__animation video{
+            max-width: 260px;
+      }
+      .large__animation{
+            left: 14.5%;
+            }
+      }

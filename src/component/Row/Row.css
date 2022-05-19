@@ -1,0 +1,17 @@
+.row{
+      margin: 10px;
+      color: white;
+      transition: all 0.45s ease-in-out;
+}
+.row__posters{
+      display: flex;
+      overflow-x: scroll;
+      padding: 30px;
+}
+.row__posters::-webkit-scrollbar{
+      display: none;
+}
+.videoPlayer{
+      display: flex;
+      justify-content: center;
+}

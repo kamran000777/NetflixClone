@@ -1,0 +1,22 @@
+.poster__potrait >img{
+      object-fit: contain;
+      max-height: 150px;
+      margin-right: 10px;
+      transition: transform 0.45s;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      border-radius: 0.5rem;
+}
+.poster__potrait:hover{
+      transform: scale(1.08);
+}
+.poster__potrait__large>img{
+      object-fit: contain;
+      max-height: 250px;
+      transition: transform 0.45s;
+}
+.playBtn{
+      color: red;
+      font-size: 2rem;
+}
